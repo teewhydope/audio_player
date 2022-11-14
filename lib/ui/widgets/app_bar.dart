@@ -14,15 +14,10 @@ class CAppBar extends StatelessWidget {
         ),
         child: Row(
           children: [
-            ColorFiltered(
-              colorFilter: ColorFilter.mode(
-                  Colors.teal.withOpacity(0.7), BlendMode.color),
-              child: Image.asset(
-                "${imagePath}logo_white_big.png",
-                height: 20.h,
-                filterQuality: FilterQuality.high,
-                colorBlendMode: BlendMode.colorDodge,
-              ),
+            Image.asset(
+              "${imagePath}logo_white_big.png",
+              height: 20.h,
+              filterQuality: FilterQuality.high,
             ),
           ],
         ));
