@@ -54,6 +54,9 @@ dev_dependencies:
   flutter_lints: 
   auto_route_generator:
   build_runner:
+  test: 
+  bloc_test: 
+  mocktail: 
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

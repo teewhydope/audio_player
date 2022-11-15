@@ -5,10 +5,10 @@ import 'package:audio_player/domain/usecases/get_album_usecase.dart';
 import 'package:audio_player/domain/usecases/get_artist_usecase.dart';
 import 'package:audio_player/domain/usecases/get_audio_usecase.dart';
 import 'package:audio_player/domain/usecases/get_genre_usecase.dart';
-import 'package:audio_player/presentation/cubit/album/album_cubit.dart';
-import 'package:audio_player/presentation/cubit/artist/artist_cubit.dart';
-import 'package:audio_player/presentation/cubit/audio/audio_cubit.dart';
-import 'package:audio_player/presentation/cubit/genre/genre_cubit.dart';
+import 'package:audio_player/presentation/cubits/album/album_cubit.dart';
+import 'package:audio_player/presentation/cubits/artist/artist_cubit.dart';
+import 'package:audio_player/presentation/cubits/audio/audio_cubit.dart';
+import 'package:audio_player/presentation/cubits/genre/genre_cubit.dart';
 import 'package:get_it/get_it.dart';
 import 'package:on_audio_query/on_audio_query.dart';
 

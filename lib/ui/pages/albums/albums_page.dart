@@ -1,11 +1,10 @@
 import 'package:audio_player/common/contstants/app_status.dart';
 import 'package:audio_player/di/get_it.dart';
-import 'package:audio_player/presentation/cubit/album/album_cubit.dart';
+import 'package:audio_player/presentation/cubits/album/album_cubit.dart';
 import 'package:audio_player/ui/widgets/artwork_container.dart';
 import 'package:audio_player/ui/widgets/text_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:on_audio_query/on_audio_query.dart';
 
 class AlbumsPage extends StatefulWidget {
   const AlbumsPage({super.key});
